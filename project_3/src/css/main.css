@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    width: 1140px;
+    margin: 0 auto;
+   
+}
+.promo{
+    height: 800px;
+    background: url('../img/bg/basckground_1.png') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_icons{
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text {
+  font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+h1 {
+    margin-top: 53px;
+}
+.title{
+  font-family: 'SF UI Text';
+  font-size: 41px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.59;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f9bf3b;
+  text-transform: uppercase;
+}
+.simple .title_big{
+  margin: 21px 20px 30px 18px;
+  font-family: 'Roboto';
+  font-size: 80px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 0.3; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  
+}
+/* h2.title{
+    margin-top: 30px;
+} */
+.title1{
+  margin-top: 30px;
+  font-family: 'SF UI Text';
+  font-size: 41px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.59;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f9bf3b;
+  text-transform: uppercase;
+}
+.promo .text_promo{
+    margin: 23px 13px 73px 12px;
+    font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.promo .text_promo span{
+    font-weight: bold;
+  color: #f9bf3b;
+}
+.promo .promo_btn{
+    display: block;
+    margin: 73px auto;
+    width: 313px;
+  height: 72px;
+  
+  /* padding: 28px 30px 29px 29px; */
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
+  border: solid 4px rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #2798b9, #3ab6da);
+  text-transform: uppercase;
+
+  text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  cursor: pointer; /* оживляем кнопку меняем курсор на руку*/
+}
+.promo .mor_text {
+    margin: 73px 161px 13px 160px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.promo .more_png {
+    display: block;
+    margin: 13px auto;
+    /* padding: 0 0 11px; */
+  /* background- */color: #fff;
+}
+.waiting{
+    min-height: 604px;
+  /* margin: 800px 0 48px; */
+  padding: 85px 0 75px 0;
+  background-color: #efefef
+}
+.conteiner .interesting {
+  /* margin: 85px auto; */
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+  text-transform: uppercase;
+}  
+.conteiner .free_vebinar {  
+  margin: 17px 267px 45px 272px;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.87;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+.waiting .interesting_line{
+    width: 217px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 18px;
+    background-color: #f9bf3b;
+    
+}
+.waiting .waiting_wrepper {
+  display: flex;
+  justify-content: space-between; /* выровнять по главной оси */
+    margin-top: 45px;
+}
+.waiting .waiting_wrepper .waiting_item {
+       width: 339px;
+       text-align: center;
+ /*  color: #4a4a4a;*/
+}
+.waiting .waiting_wrepper .waiting_item .waiting_img {
+    width: 100%;
+}
+.waiting .waiting_wrepper .waiting_item .waiting_descr {
+margin-top: 33px;
+font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  /* text-align: center; */
+  color: #4a4a4a;
+}
+.inform {
+position: relative;
+/* width: 1140px;
+margin: 0 auto */
+min-height: 550px;
+
+}
+
+.inform .inform_text {
+  margin: 102px 395px 0px 780px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #299cbd;
+  text-align: center;
+  text-transform: uppercase;
+}
+.inform .inform_text1 {
+  margin: 25px 391px 0 779px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1.59; */
+  letter-spacing: normal;
+  text-align: justify;
+  color: #4a4a4a;
+}
+.inform .inform_text1 .text_style_1 {
+  font-weight: bold
+
+}
+.inform .inform_img {
+  position: absolute;
+  top: 48px;
+  left: 150px;
+  z-index: -1;
+}
+.bar-3 {
+  background: url('../img/bg/basckground_4.jpg')center center/cover no-repeat;
+  height:447px;  
+  }
+
+.bar-3 .conteiner .cancel_lessons{
+  /* position: relative; */
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 0.4; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+  text-transform: uppercase;
+  padding-top: 86px;
+}
+.bar-3 .conteiner .interesting_line{
+  width: 217px;
+  height: 4px;
+  margin: 0 auto;
+  margin-top:23px;
+  background-color: #f9bf3b;
+}
+.bar-3 .bar-3_wrapper{
+  margin-top:41px;
+  display: flex;
+  justify-content: space-between;
+}
+.bar-3 .bar-3_wrapper .bar-3_item {
+width: 204px;
+}
+.bar-3 .bar-3_wrapper .bar-3_circle { /* третий блок с кругами */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 100%; /* скругление елемента */
+  
+}
+.bar-3 .bar-3_wrapper .bar-3_item .bar-3_descr {
+  margin-top: 26px; 
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1.18; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+}
+.bar-4  {
+  background:url('../img/bg/basckground_5.jpg')center center/cover no-repeat;
+height:628px;
+}
+.bar-4 .bonus_img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 68px
+  /* margin-top:86px */;
+}
+.bar-4 .text-4 {
+  margin-top: 42px ;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+ 
+}
+.bar-4 .bonus_intensiv {
+  display: block;
+
+  width: 313px;
+  height: 72px;
+  margin: 52px auto;
+  /* padding: 28px 30px 29px 29px; */
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
+  border: solid 4px rgba(0, 0, 0, 0.11);
+  background-image: linear-gradient(to top, #2798b9, #3ab6da);
+
+  text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+ /*  line-height: 1.14; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
+  border: solid 4px rgba(0, 0, 0, 0.11);
+  background-image: linear-gradient(to top, #2798b9, #3ab6da);
+}
+.bar-5 {
+  min-height: 515px;
+  /* padding-top: 89px; */
+}
+.bar-5 .bar-5_img {
+display: block;
+margin: 89px auto;  
+}
+.bar-5 .bar-5_inform_title {
+  margin-top: 37px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 0.4; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+  text-transform: uppercase;
+}
+.bar-5 .bar-5_inform_date {
+  margin-top: 30px;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 0.33; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #299cbd;
+}
+.bar-5 .bar-5_inform_general {
+  margin-top: 25px;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 0.87; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+} 
+.footer {
+  min-height:166px ;
+  background: url('../img/bg/basckground_6.jpg') center center/cover no-repeat;
+  padding-top: 61px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888;
+}
+.footer .footer_block {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1.4; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #888;
+}
+.footer .footer_support {
+  
+  font-family: 'SF UI Text';
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1.4; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #888;
+}
